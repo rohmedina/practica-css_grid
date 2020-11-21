@@ -1,0 +1,60 @@
+.content {
+  margin: 0 auto;
+}
+
+.post {
+  margin: 0.3rem;
+  cursor: pointer;
+
+  &__image {
+    width: 100%;
+    height: 150px;
+  }
+
+  &__description {
+    padding: 0.3rem 0.6rem;
+  }
+}
+
+.side-info {
+  &__tags,
+  &__about {
+    border-bottom: 1px solid $color_gray;
+  }
+
+  &__list {
+    padding: 0;
+  }
+
+  &__list-last-post {
+    margin-bottom: 3rem;
+  }
+}
+
+.newsletter {
+  width: 100%;
+  background-color: rgb(217, 231, 243);
+  text-align: center;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+  clear: both;
+
+  &__title {
+    font-size: 1.5rem;
+  }
+
+  &__group {
+    &__input,
+    &__button {
+      display: inline-block;
+      border-width: 0;
+      font-size: 0.8rem;
+      padding: 0.3rem 0.6rem;
+    }
+
+    &__button {
+      background-color: $color_coral;
+      color: $color_white;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.nav {
+  border-bottom: 1px solid $color_gray;
+  padding: 2%;
+
+  &__logo {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  &__menu {
+    text-align: right;
+  }
+
+  &__item {
+    display: inline-block;
+
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.input-menu {
+  border-radius: 30px;
+}
